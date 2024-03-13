@@ -1,0 +1,21 @@
+/*boby*/
+
+
+
+
+/*header*/
+.nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.nav li a {
+    color: goldenrod;
+
+}
+
+li:hover {
+    background-color: yellowgreen;
+    font-size: 120%;
+    
+
+}
