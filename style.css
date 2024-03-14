@@ -1,21 +1,23 @@
 /*boby*/
-
-
-
+body {
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #318d3a 75.52%);
+}
 
 /*header*/
-.nav {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+.nav {        
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: 20px;  
+    padding: 33px 9%;    
 }
-
 .nav li a {
     color: goldenrod;
-
-}
-
-li:hover {
-    background-color: yellowgreen;
-    font-size: 120%;
+    margin-left: 60px;    
+    font-weight: 200;
+    transition: all .65s ease;   
     
-
+}
+.nav li a:hover {
+    color: rgb(206, 200, 163);
+    font-size: 120%;
+    text-decoration: underline;     
 }
